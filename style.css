@@ -19,7 +19,7 @@ body {
     width: 100%;/* to make sure the footer spands across the whole page */
     height: 60px; /* setting the height of the footer */
     line-height: 43px; /* center the text */
-    border-width: 10px; 
+    border-width: 10px!important; /* Setting border width to 10px overridding bootstrap default */
 }
 
 .main {
@@ -42,4 +42,8 @@ a:hover {
   
 a:active {
     color: rgb(58, 140, 240); /* selected link */
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block!important;
   }
