@@ -1,0 +1,32 @@
+
+html {
+    height: calc(100% - 60px); /* Calculated height used for stickyfooter to not go over */
+}
+
+body {
+    height:100%; /*used to setting the main to full page */
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.jumbotron {
+    color:yellowgreen;
+    background-color: darkslategrey;
+}
+
+.footer {
+    position: fixed; /* setting position of the footer to fixed */
+    bottom: 0; /* setting footer to the bottom of the page */
+    width: 100%;/* setting width of the footer to full page */
+    height: 60px; /* setting the fixed height of the footer */
+    line-height: 43px; /* Vertically center the text */
+    text-align: center; /* Aligning the footer text to center */
+    border-width: 10px!important; /* Setting border width to 10px overridding bootstrap default */
+    color: purple;
+}
+
+.main {
+    min-height: 50%; /* So that the jumbotron image would go the full length of the page instead of just half */
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    padding-bottom: 80px; /* Padding bottom by footer height + 20px */
+    background-size: 100%; /* setting background size for image in main */
+}
