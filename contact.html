@@ -3,68 +3,61 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Contact</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <title>Portfolio</title>
    </head>
    <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Welcome! You can call me CABL.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html">Welcome! You can call me CABL.</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             <li class="nav-item active">
+               <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="portfolio.html">Portfolio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
       <main class="main container jumbotron mb-0 col-12">
-         <div class="card col-lg-8 col-md-8 col-sm-12">
-            <div class="card-body">
-               <h1 class="card-title text-info">Contact CABL</h1>
-               <hr class="my-4">
-               <div class="row">
-                  <div class="col-md-10">
-                     <form>
-                        <div class="form-group pl-3">
-                           <label for="usr">Full Name</label>
-                           <div class="input-group mb-3">
-                              <input type="text" id="usr" class="form-control" placeholder="Name">
-                              <div class="input-group-append">
-                                 <span class="input-group-text"><i class="fas fa-keyboard"></i></span>
-                              </div>
-                           </div>
-                           <label for="email">Email</label>
-                           <div class="input-group mb-3">
-                              <input type="text" id="email" class="form-control" placeholder="Email">
-                              <div class="input-group-append">
-                                 <span class="input-group-text"><i class="fas fa-keyboard"></i></span>
-                              </div>
-                           </div>
-                           <div class="form-group">
-                              <label for="inputMessage">Message</label>
-                              <textarea id="inputMessage" name="career[message]" class="form-control" tabindex="4" placeholder="Message" required></textarea>
-                           </div>
-                        </div>
-                        <button type="submit" class="btn btn-info btn-lg">Send!</button>
-                     </form>
+         <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="card">
+               <div class="card-body">
+                  <h1 class="card-title text-info">CABL's Portfolio</h1>
+                  <hr class="my-4">
+                  <div class="row">
+                     <figure class="col-lg-6 col-* p-3">
+                        <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0900/4590/products/IMG_8879_grande.jpg?v=1516475890" alt="Keith Haring Art"> 
+                     </figure>
+                     <figure class="col-lg-6 col-* p-3">
+                        <img class="img-fluid" src="https://lh3.googleusercontent.com/proxy/a5vJzoYq70q1E3DxC4jdV-qtvbPAqT4HEB3U5bijYbr0vXiM-TO_B7ZZDmShXY1vSHl0Q3GRmfQZaJzCm-K84-dRkWbQmEuaCQ7eG4hVT588kJttqKEKrM2uxbu8lw" alt="Andy Warhol Skulls"> 
+                     </figure>
+                     <figure class="col-lg-6 col-* p-3">
+                        <img class="img-fluid" src="https://www.taschen.com/media/images/960/basquiat_xl_gb_3d_01141_1809271440_id_1206864.png" alt="Basquiat Art"> 
+                     </figure>
+                     <figure class="col-lg-6 col-* p-3">
+                        <img class="img-fluid" src="https://web.pdx.edu/~allstott/hypebeasthistory/images/premelogo.jpg" alt="Supreme Logo"> 
+                     </figure>
+                     <figure class="col-lg-6 col-* p-3">
+                        <img class="img-fluid" src="https://d16kd6gzalkogb.cloudfront.net/magazine_images/KAWS-No-Reply_.jpg" alt="Kaws Art"> 
+                     </figure>
                   </div>
                </div>
             </div>
          </div>
       </main>
       <footer>
-        <a href="https://instagram.com/_cabl/">You look lost, follow me!</a>
-     </footer>
+         <a href="https://instagram.com/_cabl/">You look lost, follow me!</a>
+      </footer>
    </body>
 </html>
