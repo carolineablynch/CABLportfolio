@@ -3,9 +3,8 @@ html {
     height: calc(100% - 60px);
 }
 
-h1 {
-  font-family: 'Rye', cursive;
-}
+
+
 
 #CABLBio {
   font-family: 'Roboto', sans-serif;
@@ -55,4 +54,3 @@ a:active {
   .navbar-collapse.collapse.in {
     display: block!important;  
   }
-=
