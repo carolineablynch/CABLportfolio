@@ -3,14 +3,22 @@ html {
     height: calc(100% - 60px);
 }
 
+h1 {
+  font-family: 'Rye', cursive;
+}
+
+#CABLBio {
+  font-family: 'Roboto', sans-serif;
+  color: lightslategray
+}
+
 body {
     height:100%; /* we want the body to take up the full page */
     margin-bottom: 60px; /* Margin bottom by footer */
 }
 
 .jumbotron {
-    color:rgb(98, 179, 67); /* jumbotron text color */
-    background-color: darkslategrey; /* jumbotron background color */
+    background-color: rgb(245, 247, 247); /* jumbotron background color */
 }
 
 .footer {
@@ -45,5 +53,5 @@ a:active {
   }
 
   .navbar-collapse.collapse.in {
-    display: block!important;
+    display: block!important;  
   }
