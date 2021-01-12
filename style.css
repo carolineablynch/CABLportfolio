@@ -13,45 +13,46 @@ h1 {
 }
 
 body {
-    height:100%; /* we want the body to take up the full page */
-    margin-bottom: 60px; /* Margin bottom by footer */
+    height:100%; 
+    margin-bottom: 60px;
 }
 
 .jumbotron {
-    background-color: rgb(245, 247, 247); /* jumbotron background color */
+    background-color: rgb(245, 247, 247); 
 }
 
 .footer {
-    position: fixed; /* setting footer to be fixed position */
-    bottom: 0; /* to make sure the footer is at the bottom of the page */
-    width: 100%;/* to make sure the footer spands across the whole page */
-    height: 60px; /* setting the height of the footer */
-    line-height: 43px; /* center the text */
-    border-width: 10px!important; /* Setting border width to 10px overridding bootstrap default */
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    height: 60px; 
+    line-height: 43px; 
+    border-width: 10px!important; 
 }
 
 .main {
-    min-height: 50%; /* jumbotron height */
-    margin-bottom: 60px; /* Bottom margin */
-    padding-bottom: 90px; /* footer height + 30px */
+    min-height: 50%; 
+    margin-bottom: 60px; 
+    padding-bottom: 90px; 
 }
 
 a:link {
-    color: rgb(249, 7, 200); /* unvisited link */
+    color: rgb(249, 7, 200); 
   }
   
 a:visited {
-    color: rgb(0, 134, 216); /* visited link */
+    color: rgb(0, 134, 216); 
   }
   
 a:hover {
-    color: rgb(213, 68, 235); /* mouse over link */
+    color: rgb(213, 68, 235); 
   }
   
 a:active {
-    color: rgb(58, 140, 240); /* selected link */
+    color: rgb(58, 140, 240); 
   }
 
   .navbar-collapse.collapse.in {
     display: block!important;  
   }
+=
